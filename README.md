@@ -8,3 +8,5 @@
 ### 2.1 数据的载入及预处理
 我们直接从[SVHN的官网](http://ufldl.stanford.edu/housenumbers/)上面下载数据，下载格式2。
 ## 四、模型效果
+## 五、参考文献
+1. Goodfellow I J, Bulatov Y, Ibarz J, et al. Multi-digit Number Recognition from Street View Imagery using Deep Convolutional Neural Networks[J]. Computer Science, 2013.
