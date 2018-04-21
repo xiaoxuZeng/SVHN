@@ -15,6 +15,8 @@
 本次采用的神经网络由3层卷积层，3层pooling层，2层全连接层组成。
 ## 四、模型效果
 ### 4.1 Cross Entropy
-
+![](https://github.com/zjuzzy/SVHN/blob/master/markdownphotos/Screenshot%20from%202018-04-21%2000-34-07.png)
+### 4.2 标签和预测结果的分布
+！[](https://raw.githubusercontent.com/zjuzzy/SVHN/master/markdownphotos/Screenshot%20from%202018-04-21%2000-31-42.png)
 ## 五、参考文献
 > 1. Goodfellow I J, Bulatov Y, Ibarz J, et al. Multi-digit Number Recognition from Street View Imagery using Deep Convolutional Neural Networks[J]. Computer Science, 2013.
