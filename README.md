@@ -15,13 +15,17 @@
 本次采用的神经网络由3层卷积层，3层pooling层，2层全连接层组成。
 ## 四、模型效果
 ### 4.1 Cross Entropy
-![](https://github.com/zjuzzy/SVHN/blob/master/markdownphotos/Screenshot%20from%202018-04-21%2000-34-07.png)
+![](http://m.qpic.cn/psb?/V13EpJbL3HbDX9/lCOEH2CDZH31F1FAPgu4ywgY3uql2EjDHL7ZgGFvVLg!/b/dEMBAAAAAAAA&bo=DQH.AAAAAAADB9A!&rf=viewer_4)
 ### 4.2 标签和预测结果的分布
-![](https://raw.githubusercontent.com/zjuzzy/SVHN/master/markdownphotos/Screenshot%20from%202018-04-21%2000-31-42.png)
+![](http://m.qpic.cn/psb?/V13EpJbL3HbDX9/p2yTN.JB*5P00uOn3hZcaSKZ*rVwWE*UHfOhdFmsC7s!/b/dEEBAAAAAAAA&bo=AwHVAQAAAAADB*Q!&rf=viewer_4)
 ### 4.3 训练结果
+![](http://m.qpic.cn/psb?/V13EpJbL3HbDX9/jGMehqDvFYvQqlL1c2dQs2pMPNlqm5ptokjEYxmBmpM!/b/dDEBAAAAAAAA&bo=BwGtAAcBrQADByI!&rf=viewer_4)
 ### 4.4 测试结果
+![](http://m.qpic.cn/psb?/V13EpJbL3HbDX9/XxgL9yXqm5ZZluftKJ.KKz9DqLJGW2YBZjTKGMlMbtE!/b/dDIBAAAAAAAA&bo=PQFwAD0BcAADFzI!&rf=viewer_4)
 ## 五、结果分析及遇到的问题
 从训练结果可以看出，模型识别率并不算高，分析原因，主要是由上文提到的标签错误及图片质量不高导致的。进一步滤出被错误标签的数据并提高图片质量，模型识别率应该有所提高。
+![](http://m.qpic.cn/psb?/V13EpJbL3HbDX9/dch3ewZQDaSQ.oFUHJ1w2tgbgPi*CfSN*giaLg17I2E!/b/dEUBAAAAAAAA&bo=2AJKANgCSgADFzI!&rf=viewer_4)
+![](http://m.qpic.cn/psb?/V13EpJbL3HbDX9/NS103bzzwhan0WPjt35ILcBzLCKtEUuyE*tFuRJH2x8!/b/dDIBAAAAAAAA&bo=1QJTANUCUwADFzI!&rf=viewer_4)
 
 当然，进一步加深模型深度并调节超参数应该也是可以提高accuracy的。
 ## 六、其他说明
